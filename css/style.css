@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  background-color: #0077FF;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 2rem;
+}
+
+input, textarea, button{
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+}
+textarea{
+  height: 120px;
+}
+button{
+  font-size: 1.5em;
+  background-color: #0077FF;
+}
+
+button:hover {
+  background-color: blue;
+  color: #FFF;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #0077FF;
+  margin: 60px auto;
+}
